@@ -1,0 +1,73 @@
+/* eslint-disable no-unused-vars */
+const family = [
+    {
+        Name: 'Nur Islam',
+        rel: 'Brother',
+        loc: 'Bogura',
+        phn: '01300536029',
+        img: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z2VudGxlbWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    },
+    {
+        Name: 'Dewara Begum',
+        rel: 'Sister',
+        loc: 'Bogura',
+        phn: '01721949231',
+        img: 'https://images.unsplash.com/photo-1606877096964-c306a05f4d6f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bXVzbGltJTIwd29tZW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+    },
+    {
+        Name: 'Abu bakkar',
+        rel: 'Elder brother',
+        loc: 'Bogura',
+        phn: '01722135335',
+        img: 'https://images.unsplash.com/photo-1577919518833-57dc0a0105e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Z2VudGxlbWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    },
+    {
+        Name: 'Mamun',
+        rel: 'Friends',
+        loc: 'Bogura',
+        phn: '01749254632',
+        img: 'https://images.unsplash.com/photo-1622497170185-5d668f816a56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z2VudGxlbWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    },
+    {
+        Name: 'Abu sayeed',
+        rel: 'Friends',
+        loc: 'Saudi arabia',
+        phn: '01718986532',
+        img: 'https://images.unsplash.com/photo-1546572797-e8c933a75a1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGdlbnRsZW1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    },
+    {
+        Name: 'Anamul Haque',
+        rel: 'Friends',
+        loc: 'Savar Dhaka',
+        phn: '01718986235',
+        img: 'https://images.unsplash.com/photo-1630667208073-82d53b1db540?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Z2VudGxlbWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    },
+    {
+        Name: 'Arif',
+        rel: 'Friends',
+        loc: 'Jahangirnagar',
+        phn: '01718986541',
+        img: 'https://images.unsplash.com/photo-1546572797-e8c933a75a1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGdlbnRsZW1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    },
+    {
+        Name: 'Shovon',
+        rel: 'Friends',
+        loc: 'Faridpur',
+        phn: '01718982541',
+        img: 'https://images.unsplash.com/photo-1546572797-e8c933a75a1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGdlbnRsZW1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    },
+    {
+        Name: 'Nasir',
+        rel: 'Friends',
+        loc: 'Chandpur',
+        phn: '01718986254',
+        img: 'https://images.unsplash.com/photo-1630667208073-82d53b1db540?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Z2VudGxlbWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    },
+    {
+        Name: 'Shampa Akter',
+        rel: 'Friends',
+        loc: 'Chandpur',
+        phn: '01718986325',
+        img: 'https://images.unsplash.com/photo-1629637980312-17ca9ed52f29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODJ8fGhpamFifGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    },
+];

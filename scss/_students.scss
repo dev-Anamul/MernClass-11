@@ -1,0 +1,111 @@
+.student__info {
+  background-color: #273c75;
+  &__card {
+    width: 15%;
+    position: relative;
+    margin-bottom: 10rem;
+  }
+  &__img {
+    width: 100%;
+    height: 40rem;
+    perspective: 100rem;
+    & > img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 0.5rem;
+      -webkit-border-radius: 0.5rem;
+      -moz-border-radius: 0.5rem;
+      -ms-border-radius: 0.5rem;
+      -o-border-radius: 0.5rem;
+      transform: rotateY(40deg);
+      -webkit-transform: rotateY(40deg);
+      -moz-transform: rotateY(40deg);
+      -ms-transform: rotateY(40deg);
+      -o-transform: rotateY(40deg);
+      -webkit-box-reflect: below 0.5px
+        linear-gradient(transparent, transparent, #0003);
+      transition: all 0.5s;
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+      -o-transition: all 0.5s;
+    }
+  }
+  &__item {
+    width: 100vw;
+    padding: 5rem 5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  &__details {
+    position: absolute;
+    width: 80%;
+    bottom: 10%;
+    left: 10%;
+    background: #200122;
+    background: -webkit-linear-gradient(to right, #6f0000a5, #200122a5);
+    background: linear-gradient(to right, #6f0000a5, #200122a5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+
+    & > * {
+      margin-bottom: 0.8rem;
+    }
+  }
+
+  &__card:hover > &__details {
+    opacity: 1;
+    visibility: visible;
+    height: 80%;
+  }
+  &__card:hover > &__img > img {
+    opacity: 0.7;
+    transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+  }
+}
+
+.sudent__name {
+  background: #fc00ff;
+  background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);
+  background: linear-gradient(to right, #00dbde, #fc00ff);
+
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 2.5rem;
+}
+.student__id {
+  font-size: 1.7rem;
+  & > span:first-child {
+    margin-right: 1rem;
+  }
+}
+
+.student__location {
+  font-size: 1.7rem;
+  text-align: center;
+  & > span:first-child {
+    margin-bottom: 1rem;
+  }
+}

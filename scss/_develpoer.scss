@@ -1,0 +1,138 @@
+.card__wrapper {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: space-evenly;
+  padding: 2rem;
+  font-size: 1.4rem;
+  width: 100vw;
+}
+.developer__card__section {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.developer__card__item {
+  background-color: rgba(0, 0, 0, 0.05);
+  box-shadow: -0.1rem 1.7rem 6.6rem -3.2rem rgba(0, 0, 0, 0.5);
+  height: 25rem;
+  position: relative;
+  transition: all 1s ease;
+  width: 25rem;
+}
+.developer__card__item {
+  margin: 5rem 10rem;
+}
+
+.developer__card__front {
+  height: 25rem;
+  perspective: 100rem;
+  position: absolute;
+  right: 0;
+  transition: all 1s ease;
+  visibility: hidden;
+  width: 25rem;
+  z-index: 100;
+}
+.developer__card__front > * {
+  visibility: visible;
+}
+
+.developer__front__container {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  transform-origin: left;
+  transform-style: preserve-3d;
+  transition: all 1s ease;
+  width: 100%;
+}
+
+.developer__front__heading__box,
+.developer__front__img {
+  backface-visibility: hidden;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.developer__front__heading__box {
+  background: linear-gradient(-45deg, #65b3f6, #e116d2);
+  height: 25rem;
+  width: 25rem;
+  color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.developer__front__img {
+  background-color: #fafbfa;
+  transform: rotateY(180deg);
+}
+.developer__front__img > img {
+  // height: auto;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+///////// === Back Part
+
+.developer__card__back {
+  background-color: #3b3b98;
+  box-shadow: inset 20rem 0px 5rem -2.5rem rgba(0, 0, 0, 0.25);
+  height: 100%;
+  padding: 1rem;
+  position: absolute;
+  right: 0;
+  transition: all 1s ease;
+  width: 25rem;
+  z-index: 1;
+}
+
+.developer__card__back__details {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+}
+.developer__card__back__details > * {
+  margin-bottom: 1rem;
+}
+
+////// functionality
+
+.developer__card__item:hover {
+  box-shadow: -0.1rem 1.7rem 6.6rem -3.2rem rgba(0, 0, 0, 0.75);
+  width: 50rem;
+  margin: 5rem 1rem;
+}
+
+.developer__card__item:hover .developer__front__container {
+  transform: rotateY(-180deg);
+}
+
+/////////// details css
+
+.developer__name {
+  // background: linear-gradient(to right, #65b3f6, #ca37c0, #e116d2);
+  background: #c6ffdd;
+  background: -webkit-linear-gradient(to right, #f7797d, #fbd786, #c6ffdd);
+  background: linear-gradient(to right, #f7797d, #fbd786, #c6ffdd);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}

@@ -1,0 +1,27 @@
+.family__info {
+  width: 100vw;
+  text-align: center;
+
+  &__table {
+    width: 60%;
+    margin: 10rem auto;
+    text-align: center;
+  }
+}
+
+.table {
+  width: 100%;
+  font-size: 1.7rem;
+  border-collapse: collapse;
+
+  th,
+  td {
+    padding: 1rem 2.5rem;
+    border: 0.1rem solid white;
+    & > img {
+      width: 6rem;
+      height: 6rem;
+      object-fit: cover;
+    }
+  }
+}
